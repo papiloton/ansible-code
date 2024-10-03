@@ -1,0 +1,9 @@
+---
+- hosts: wind
+  roles:
+
+  - role: link
+   
+    win_get_url:
+    url: "https://new-virtualbox-url-here/virtualBox-7.0.18-Win.exe"
+    dest: "C:\\Users\\Administrator\\Desktop\\Ricardo\\virtualBox-7.0.18-162988-Win.exe"
