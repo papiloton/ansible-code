@@ -12,5 +12,7 @@ pipeline{
                 sh 'curl -uadmin:AP8gcgmmset5jeYChTJYDN6XmDd -T \
                 ansible-${BUILD_ID}.zip \
                 "http://52.87.206.28:8081/artifactory/ansible/ansible-${BUILD_ID}.zip"'
-    }
-}
+            }
+        }
+    } 
+}      
